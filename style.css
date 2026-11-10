@@ -4,7 +4,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+.miniheight{
+    max-width: 1400px;
+}
 header {
 
 }
@@ -116,7 +118,7 @@ main {
     height: 60px;
     margin-top: 50px;
     display: flex;
-    padding-left: 130px;
+    padding-left: 160px;
     gap: 30px;
 }
 
@@ -193,7 +195,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 #right {
     background-color: #B9FF66;
 }
@@ -209,7 +210,7 @@ main {
 .line {
     height: 50px;
     display: flex;
-    padding-left: 120px;
+    padding-left: 160px;
     margin-top: 40px;
     align-items: center;
     gap: 20px;
@@ -279,7 +280,7 @@ hr {
     height: 40px;
     width: 100%;
     display: flex;
-    padding: 30px 120px;
+    padding: 30px 160px;
     gap: 10px;
     align-items: center;
     box-sizing: border-box;
@@ -505,18 +506,16 @@ padding-left: 50px;
         justify-content: space-between;
     }
 
-    /* 1. Mobile par pehle saare links aur button bilkul gayab (hide) rahenge */
     .icons {
         display: none;
     }
 
-    /* 2. Sirf Burger icon dikhega */
+   
     .hamburger {
         display: block;
         cursor: pointer;
     }
 
-    /* 3. Burger par Mouse aate hi (Hover par) poori menu khul jayegi */
     .nav:has(.hamburger:hover) .icons,
     .hamburger:hover + .icons,
     .icons:hover {
@@ -536,14 +535,14 @@ padding-left: 50px;
         box-sizing: border-box;
     }
 
-    /* Menu ke andar ke links */
+  
     .icons a {
         color: black;
         font-size: 18px;
         text-decoration: none;
     }
 
-    /* Menu ke andar ka button */
+    
     .icons .nav_btn {
         width: 80%;
         margin: 10px auto 0 auto;
